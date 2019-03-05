@@ -1,0 +1,30 @@
+{
+  "name": "dimcore-telegram-bot",
+  "version": "1.0.0",
+  "description": "telegram bot-organizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustDimcore/dimcore-telegram-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "organizer",
+    "alarm",
+    "clock"
+  ],
+  "author": "Dimcore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustDimcore/dimcore-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/JustDimcore/dimcore-telegram-bot#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "telegram-bot-api": "^1.3.1"
+  }
+}
