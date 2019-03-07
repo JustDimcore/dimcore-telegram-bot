@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build-ts": "tsc",
-    "start": "npm run serve",
+    "start": "npm-run-all --parallel watch-node watch-ts",
     "serve": "node dist/index.js",
     "watch-node": "nodemon dist/index.js",
     "watch-ts": "tsc -w"
@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.10",
+    "npm-run-all": "^4.1.5",
     "tslint": "^5.13.1",
     "typescript": "^3.3.3333"
   }
