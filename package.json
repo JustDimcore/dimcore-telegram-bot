@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build-ts": "tsc",
-    "start": "npm-run-all --parallel watch-ts watch-node",
+    "start": "npm-run-all build-ts & (npm-run-all --parallel watch-ts watch-node)",
     "serve": "node dist/index.js",
     "watch-node": "nodemon dist/index.js",
     "watch-ts": "tsc -w"

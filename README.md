@@ -10,7 +10,7 @@ NodeJS, NPM
 To install dependencies
 ```npm i```
 
-Add file with name ```token``` with your telegram token into dist folder.
+Add file with name ```token``` with your telegram token in project folder.
 *To get token go read [here](https://core.telegram.org/bots#3-how-do-i-create-a-bot).*
 
 ### Common usage:
